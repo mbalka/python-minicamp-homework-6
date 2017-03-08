@@ -1,0 +1,49 @@
+body {
+  background: whitesmoke;
+}
+
+div {
+  background-color: red;
+  height: 75px;
+/*  margin-bottom: 5px; */
+  padding-top: 5px;
+}
+
+.detect-hover {
+  background: blue;
+  height: 500px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.detect-hover:hover {
+  background: gray;
+}
+
+p {
+  background: black;
+  color: black;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer {
+  background: green;
+}
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-left: -15px;
+}
+
+.icon {
+  margin-left: 15px;
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  list-style-type: none;
+}
